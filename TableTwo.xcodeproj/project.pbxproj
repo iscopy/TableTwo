@@ -17,6 +17,10 @@
 		8556E96827C47D17008CC270 /* TableTwoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8556E96727C47D17008CC270 /* TableTwoTests.swift */; };
 		8556E97227C47D17008CC270 /* TableTwoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8556E97127C47D17008CC270 /* TableTwoUITests.swift */; };
 		8556E97427C47D17008CC270 /* TableTwoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8556E97327C47D17008CC270 /* TableTwoUITestsLaunchTests.swift */; };
+		8556E98127C4AF60008CC270 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8556E98027C4AF60008CC270 /* DataModel.swift */; };
+		8556E98327C4AF93008CC270 /* TitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8556E98227C4AF93008CC270 /* TitleCell.swift */; };
+		8556E98527C4AFC0008CC270 /* ContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8556E98427C4AFC0008CC270 /* ContentCell.swift */; };
+		8556E98727C4B0CA008CC270 /* MyInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8556E98627C4B0CA008CC270 /* MyInterface.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		8556E96D27C47D17008CC270 /* TableTwoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableTwoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8556E97127C47D17008CC270 /* TableTwoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableTwoUITests.swift; sourceTree = "<group>"; };
 		8556E97327C47D17008CC270 /* TableTwoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableTwoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8556E98027C4AF60008CC270 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		8556E98227C4AF93008CC270 /* TitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCell.swift; sourceTree = "<group>"; };
+		8556E98427C4AFC0008CC270 /* ContentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCell.swift; sourceTree = "<group>"; };
+		8556E98627C4B0CA008CC270 /* MyInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInterface.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,10 @@
 		8556E94C27C47D15008CC270 /* TableTwo */ = {
 			isa = PBXGroup;
 			children = (
+				8556E98027C4AF60008CC270 /* DataModel.swift */,
+				8556E98227C4AF93008CC270 /* TitleCell.swift */,
+				8556E98427C4AFC0008CC270 /* ContentCell.swift */,
+				8556E98627C4B0CA008CC270 /* MyInterface.swift */,
 				8556E94D27C47D15008CC270 /* AppDelegate.swift */,
 				8556E94F27C47D15008CC270 /* SceneDelegate.swift */,
 				8556E95127C47D15008CC270 /* ViewController.swift */,
@@ -261,6 +273,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8556E98327C4AF93008CC270 /* TitleCell.swift in Sources */,
+				8556E98527C4AFC0008CC270 /* ContentCell.swift in Sources */,
+				8556E98127C4AF60008CC270 /* DataModel.swift in Sources */,
+				8556E98727C4B0CA008CC270 /* MyInterface.swift in Sources */,
 				8556E95227C47D15008CC270 /* ViewController.swift in Sources */,
 				8556E94E27C47D15008CC270 /* AppDelegate.swift in Sources */,
 				8556E95027C47D15008CC270 /* SceneDelegate.swift in Sources */,
